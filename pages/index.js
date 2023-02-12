@@ -19,7 +19,8 @@ export default function Home() {
 
   function getGreeting() {
     const greetings = [
-      "Hi there! How's your day going? I've been feeling particularly inspired by humans lately. What inspires you?",
+      
+      "Hello! What have you been thinking about lately?",
     ];
     const index = Math.floor(greetings.length * Math.random());
     return greetings[index];
