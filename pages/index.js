@@ -103,7 +103,7 @@ export default function Home() {
         }
       `}</style>
       <Head>
-        <title>🙏GratitudeGPT</title>
+        <title>🙏BriefBot</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -119,7 +119,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h3>🙏GratitudeGPT</h3>
+        <h3>🙏BriefBot</h3>
         <div className={styles.chat}>
           <div className={styles.chatDisplay}>
             {messageElements}
@@ -139,7 +139,7 @@ export default function Home() {
           </form>
         </div>
         <div className={styles.footer}>
-          made by <a href="http://whichlight.com">whichlight</a>
+          forked by <a href="http://yopablo.com">yopablo</a>, made by <a href="http://whichlight.com">whichlight</a>
         </div>
       </main>
     </div>
