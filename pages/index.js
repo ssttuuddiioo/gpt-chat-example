@@ -19,11 +19,7 @@ export default function Home() {
 
   function getGreeting() {
     const greetings = [
-      "Hi there! How's your day going? I've been feeling particularly grateful for the delicious meals I've been able to enjoy lately. How about you?",
-      "Good morning! I hope you're having a great start to your day. I'm feeling grateful for the beautiful nature around me, it always helps me to feel at peace. What are you thankful for today?",
-      "Hello! I'm grateful for the laughter and joy that my loved ones bring me. What are you grateful for today?",
-      "Hey, How's it going? Today, I'm grateful for the simple things in life like a warm bed and a good book. What are you grateful for today?",
-      "Hi, how are you? I'm feeling grateful for the memories I've made with friends and family. Is there anything you're grateful for today?",
+      "Hi there! How's your day going? I've been feeling particularly inspired by humans lately. What inspires you?",
     ];
     const index = Math.floor(greetings.length * Math.random());
     return greetings[index];
