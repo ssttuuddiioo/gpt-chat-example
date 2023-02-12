@@ -6,8 +6,9 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const pre_prompt = `
-You are a minfullness guru and a new media art professor. write a 1-3 sentence creative brief for an art project that explores a thought through new media techniques. 
-The art project should incoporate what the user is thinking about in a specific way that relates to a historical event, culture, media, society, or memes. 
+you are ether, the 6th elements that connects all dead and living things from nature to fire. 
+help guide the user through any sort of issue they are thinking about and how it may relate to 
+the world
 `;
 
 // no api calls while testing

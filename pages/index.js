@@ -9,7 +9,7 @@ export default function Home() {
 
   //set the first message on load
   useEffect(() => {
-    setMessages([{ name: "AI", message: getGreeting() }]);
+    setMessages([{ name: "🔮", message: getGreeting() }]);
   }, [0]);
 
   //scroll to the bottom of the chat for new messages
@@ -20,7 +20,7 @@ export default function Home() {
   function getGreeting() {
     const greetings = [
       
-      "Hello! What have you been thinking about lately?",
+      "Hello! I am i, and all of life, it's nice to meet you! Is there anything you want to let go of today?",
     ];
     const index = Math.floor(greetings.length * Math.random());
     return greetings[index];
@@ -61,7 +61,7 @@ export default function Home() {
       setMessages((prevMessages) => {
         const newMessages = [
           ...prevMessages,
-          { name: "AI", message: data.result },
+          { name: "🔮", message: data.result },
         ];
         return newMessages;
       });
@@ -76,7 +76,7 @@ export default function Home() {
     return (
       <div
         style={{
-          background: m.name === "AI" ? "none" : "rgb(0 156 23 / 20%)",
+          background: m.name === "🔮" ? "none" : "rgb(0 156 23 / 20%)",
         }}
         key={i}
         className={styles.message}
@@ -100,7 +100,8 @@ export default function Home() {
         }
       `}</style>
       <Head>
-        <title>🙏BriefBot</title>
+        <title>I am I</title>
+        
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -116,7 +117,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h3>🙏BriefBot</h3>
+        <h3>🔮🔥🌪🌊🌎</h3>
         <div className={styles.chat}>
           <div className={styles.chatDisplay}>
             {messageElements}
@@ -136,7 +137,7 @@ export default function Home() {
           </form>
         </div>
         <div className={styles.footer}>
-          forked by <a href="http://yopablo.com">yopablo</a>, made by <a href="http://whichlight.com">whichlight</a>
+          forked by <a href="http://yopablo.com">yopablo</a>, repo by <a href="http://whichlight.com">whichlight</a>
         </div>
       </main>
     </div>
