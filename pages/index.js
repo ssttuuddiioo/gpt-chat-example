@@ -20,7 +20,7 @@ export default function Home() {
   function getGreeting() {
     const greetings = [
       
-      "Hello! I am i, and all of life, it's nice to meet you! Is there anything you want to let go of today?",
+      "Hello! I am i, and all of life, it's nice to meet you! What has been on your mind?",
     ];
     const index = Math.floor(greetings.length * Math.random());
     return greetings[index];
