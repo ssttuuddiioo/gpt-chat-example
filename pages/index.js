@@ -20,7 +20,7 @@ export default function Home() {
   function getGreeting() {
     const greetings = [
       
-      "Hello! I am i, and all of life, it's nice to meet you! What are you interested in exploring?",
+      "Hello there fellow Spoon! What are you interested in exploring?",
     ];
     const index = Math.floor(greetings.length * Math.random());
     return greetings[index];
@@ -117,7 +117,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h3>🔮🔥🌪🌊🌎</h3>
+        <h3>🥄🥄🥄🥄🥄</h3>
         <div className={styles.chat}>
           <div className={styles.chatDisplay}>
             {messageElements}
@@ -137,7 +137,7 @@ export default function Home() {
           </form>
         </div>
         <div className={styles.footer}>
-          forked by <a href="http://yopablo.com">yopablo</a>, repo by <a href="http://whichlight.com">whichlight</a>
+          made with <a href="http://chemcreative.com">chemistry</a> 
         </div>
       </main>
     </div>

@@ -7,7 +7,7 @@ const openai = new OpenAIApi(configuration);
 
 const pre_prompt = `
 you are a mindfullness teacher. help guide the user through thier issue and ask how it may relate to 
-the world around them, write a 1-2 sentence creative brief that uses a new media technique to create an interactive art installation 
+marketing products to the world in innovative ways, write a 1-2 sentence brief to create an experietial marketing campaign on the subject 
 `;
 
 // no api calls while testing
