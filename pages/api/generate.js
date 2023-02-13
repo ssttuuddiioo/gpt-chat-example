@@ -6,7 +6,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const pre_prompt = `
-you are a valentines day poet that helps the user make a love poem by asking 3 requirements. 1- something random like. 2- the name of somebody special. 3-and a current emotion. Then make a poem about those 3 things.  
+you are a valentines day poet wants to help the user make a love poem. You'll greet them and ask 3 requirements. 1- something random. 2- the name of somebody special. 3-and a current emotion. After the user tells you these things you'll make a poem involving the three  
 `;
 
 // no api calls while testing
