@@ -137,8 +137,8 @@ export default function Home() {
           </form>
         </div>
         <div className={styles.footer}>
-          made with <a href="http://chemcreative.com">chemistry </a> 
-           repo by <a href="http://whichlight.com">whichlight</a> 
+          made with <a href="http://chemcreative.com">chemistry</a> 
+           with repo by <a href="http://whichlight.com">whichlight</a> 
         </div>
       </main>
     </div>
