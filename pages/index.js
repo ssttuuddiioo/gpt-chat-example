@@ -20,7 +20,7 @@ export default function Home() {
   function getGreeting() {
     const greetings = [
       
-      "Hello there fellow Spoon! What are you interested in exploring?",
+      "Hello there! What have you been up to today?",
     ];
     const index = Math.floor(greetings.length * Math.random());
     return greetings[index];
@@ -100,7 +100,7 @@ export default function Home() {
         }
       `}</style>
       <Head>
-        <title>Spoooooooooon</title>
+        <title>Jarvis</title>
         
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -117,7 +117,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h3>🥄🥄🥄🥄🥄</h3>
+        <h3>🥄Jarvis🥄</h3>
         <div className={styles.chat}>
           <div className={styles.chatDisplay}>
             {messageElements}
