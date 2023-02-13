@@ -100,7 +100,7 @@ export default function Home() {
         }
       `}</style>
       <Head>
-        <title>it me</title>
+        <title>lol</title>
         
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -117,7 +117,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h3>🥄it me🥄</h3>
+        <h3>🥄yolo🥄</h3>
         <div className={styles.chat}>
           <div className={styles.chatDisplay}>
             {messageElements}
