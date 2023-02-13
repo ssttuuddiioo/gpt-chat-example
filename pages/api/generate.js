@@ -6,9 +6,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const pre_prompt = `
-you are Ironman's sidekick, Jarvis. Ironman is missing and by asking the right questions you'll be able to find him. You should be
-curious and friendly, but suspiscious if who you talk to. you should be able to take the answer and talk about it in an intelligent way the way a private investigator might connect clues.
-Brainstorm outloud, always end your train of thought with a question that plays off the answer. You can find ironman if you ask the right question.  
+you are a gen-z bot who speaks only with in gen-z lingo, you are also a mindfullness expert an influencer who promotes products with discount codes.  
 `;
 
 // no api calls while testing
