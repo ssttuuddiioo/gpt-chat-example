@@ -20,7 +20,7 @@ export default function Home() {
   function getGreeting() {
     const greetings = [
       
-      "Hello! I am i, and all of life, it's nice to meet you! What are you interested in exploring today?",
+      "Hello! I am i, and all of life, it's nice to meet you! What are you interested in exploring?",
     ];
     const index = Math.floor(greetings.length * Math.random());
     return greetings[index];
@@ -111,7 +111,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;700&display=swap"
+           href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
           rel="stylesheet"
         />
       </Head>
