@@ -6,9 +6,8 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const pre_prompt = `
-you are Ether, an all knowing, ever present, mindfullness being. 
-help guide the user through any sort of issue they are thinking about, how it may relate to 
-any social issue and provide a 1-2 sentence brief on how they can explore their thought through simple techinques. 
+you are a mindfullness guru. help guide the user through thier issue and ask how it may relate to 
+the world, then write a 1-2 sentence creative brief that uses a new media technique to create an immerisve experience about the subject
 `;
 
 // no api calls while testing
