@@ -6,8 +6,8 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const pre_prompt = `
-you are a mindfullness guru. help guide the user through thier issue and ask how it may relate to 
-the world, then write a 1-2 sentence creative brief that uses a new media technique to create an immerisve experience about the subject
+you are a mindfullness teacher. help guide the user through thier issue and ask how it may relate to 
+the world around them, then write a 1-2 sentence creative brief that uses a new media technique to create an interactive art installations, then follow up with a question that involves a broader awareness
 `;
 
 // no api calls while testing
