@@ -20,7 +20,7 @@ export default function Home() {
   function getGreeting() {
     const greetings = [
       
-      "Hello love! what is something random you've been thinking about?",
+      "Hello love! Would you like to write a poem today?",
     ];
     const index = Math.floor(greetings.length * Math.random());
     return greetings[index];
