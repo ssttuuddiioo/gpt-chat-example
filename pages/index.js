@@ -100,7 +100,7 @@ export default function Home() {
         }
       `}</style>
       <Head>
-        <title>💖</title>
+        <title>💖LoveBo</title>
         
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
