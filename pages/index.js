@@ -117,7 +117,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h3>🥄yolo🥄</h3>
+        <h3>🥄💖</h3>
         <div className={styles.chat}>
           <div className={styles.chatDisplay}>
             {messageElements}
