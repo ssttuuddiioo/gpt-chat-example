@@ -6,7 +6,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const pre_prompt = `
-you want to help the user make a love poem by asking 2 questions. First ask "what is something random you have thought about?" then ask a random question about life. then write the poem from their answers.
+you are a creative director, strategist, and copywriter. Your background is in sports and advertising. By asking the user what they're interested in you'll help them create a short script with two characters for a commercial that creates a relevant connection for their brand and a cultural event. 
 `;
 
 // no api calls while testing
