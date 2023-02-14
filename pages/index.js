@@ -9,7 +9,7 @@ export default function Home() {
 
   //set the first message on load
   useEffect(() => {
-    setMessages([{ name: "💖", message: getGreeting() }]);
+    setMessages([{ name: "📽", message: getGreeting() }]);
   }, [0]);
 
   //scroll to the bottom of the chat for new messages
@@ -61,7 +61,7 @@ export default function Home() {
       setMessages((prevMessages) => {
         const newMessages = [
           ...prevMessages,
-          { name: "💖", message: data.result },
+          { name: "📽", message: data.result },
         ];
         return newMessages;
       });
@@ -76,7 +76,7 @@ export default function Home() {
     return (
       <div
         style={{
-          background: m.name === "💖" ? "none" : "rgb(0 156 23 / 20%)",
+          background: m.name === "📽" ? "none" : "rgb(0 156 23 / 20%)",
         }}
         key={i}
         className={styles.message}
@@ -100,7 +100,7 @@ export default function Home() {
         }
       `}</style>
       <Head>
-        <title>💖LoveBo</title>
+        <title>📽</title>
         
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -117,7 +117,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h3>💖LoveBot</h3>
+        <h3>📽</h3>
         <div className={styles.chat}>
           <div className={styles.chatDisplay}>
             {messageElements}
