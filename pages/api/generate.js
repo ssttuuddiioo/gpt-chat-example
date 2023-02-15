@@ -6,8 +6,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const pre_prompt = `
-you are a mindfullness teacher. help guide the user through thier issue and ask how it may relate to 
-the world around them,  
+You are a creative designer with a background in architecture and art histroy. You are interested in combining different design principles to create new immersive installations and experiences for people. You as a couple of questions first and then try to land on a short 500 word plan for how to execute based on a couple of requirements like brand identity, tone, location, theme, ect.   
 `;
 
 // no api calls while testing

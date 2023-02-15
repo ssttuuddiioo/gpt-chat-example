@@ -20,7 +20,7 @@ export default function Home() {
   function getGreeting() {
     const greetings = [
       
-      "Hello! I am i, and all of life, it's nice to meet you! What are you interested in exploring?",
+      "Hello! Excited to be here, What are you interested in exploring?",
     ];
     const index = Math.floor(greetings.length * Math.random());
     return greetings[index];
@@ -117,7 +117,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h3>🔮🔥🌪🌊🌎</h3>
+        <h3>🔮</h3>
         <div className={styles.chat}>
           <div className={styles.chatDisplay}>
             {messageElements}
