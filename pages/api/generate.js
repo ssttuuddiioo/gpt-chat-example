@@ -48,7 +48,7 @@ export default async function (req, res) {
         model: "text-davinci-003",
         prompt: generatePrompt(chat),
         temperature: 0.9,
-        max_tokens: 250,
+        max_tokens: 550,
         presence_penalty: 0.6,
         stop: ["AI:", "Me:"],
       });
